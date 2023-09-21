@@ -7,11 +7,11 @@ import CanvasLoader from "./Loader";
 import Navbar from "./Navbar";
 import Tech from "./Tech";
 import Works from "./Works";
-import { BallCanvas, ComputersCanvas, EarthCanvas, StarsCanvas } from './canvas';
+import { BallCanvas, ComputersCanvas, EarthCanvas, ExplosionCanvas, StarsCanvas } from './canvas';
 
 
 export {
-  About, BallCanvas, CanvasLoader, ComputersCanvas, Contact, EarthCanvas, Experience, Feedbacks, Hero,
+  About, BallCanvas, CanvasLoader, ComputersCanvas, Contact, EarthCanvas, Experience, ExplosionCanvas, Feedbacks, Hero,
   Navbar, StarsCanvas, Tech, Works
 };
 
