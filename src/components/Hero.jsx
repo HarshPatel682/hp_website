@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ExplosionCanvas } from "./canvas";
+import { ComputersCanvas, ExplosionCanvas } from "./canvas";
 
 
 const Hero = () => {
@@ -25,7 +25,13 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      
       <ExplosionCanvas isExploding2={false}/>
+      <div class="absolute inset-0 flex justify-center items-center z-5">
+        <ComputersCanvas />
+      </div>
+      
+
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

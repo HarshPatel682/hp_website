@@ -1,28 +1,26 @@
 import {
-  mobile,
   backend,
+  coronaViz,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
+  docker,
+  figma,
+  git,
+  html,
+  hughes,
+  illumina,
+  javascript,
+  mobile,
+  mongodb,
+  mysatsang,
+  nodejs,
   reactjs,
   redux,
+  scrollyTelling,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  typescript,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -42,21 +40,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Problem-Solving",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Fast Learner",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Collaboration",
     icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -116,55 +114,34 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "Hughes Network Systems",
+    icon: hughes,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2019 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with 8 engineers and cross-functional teams in an Agile setting to enhance the Network Management System (NMS) servicing global enterprise customers.",
+      "Designed and developed Oracle PL/SQL data migration scripts to allow for backward compatibility among releases.",
+      "Applied the MVC architecture with design patterns, Java, Groovy, etc. to refactor and add crucial features to the NMS.",
+      "Developed intricate Angular screens enhancing usability and navigation by implementing seamless user interfaces.",
+      "Optimized RESTful API calls for substantial request bodies, yielding efficient data transmission to the database. ",
+      "Swiftly advanced to global on-call support within months, demonstrating adaptability and value to the team.",
+      "Assisted more than 10 enterprise clients during significant version upgrades, resulting in minimal system downtime.",
+      "Received Engineering Excellence Award (2021), over fellow new hires (30+ people) for my efforts.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer Intern",
+    company_name: "Illumina",
+    icon: illumina,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2022 - August 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created RESTful APIs to send data to RabbitMQ, a message broker that manages message exchange across microservices versioned by Git.",
+      "Leveraged Java and Spring Boot’s capabilities to streamline code, creating modular and adaptable solutions.",
+      "Engineered a user-friendly ReactJS interface, resulting in a 30% decrease in user input errors in test.",
+      "Automated testing procedures by implementing unit and end-to-end tests ensuring a stable system across versions.",
+      "Developed an intuitive Splunk dashboard to monitor API metrics, employing advanced logging formats for accuracy.",
     ],
   },
 ];
@@ -198,68 +175,73 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MySatsang Application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Volunteered at BAPS North America Headquaters to create design documents, add features, and communicate with stakeholders.",
     tags: [
       {
-        name: "react",
+        name: "AWS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Docker",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Java",
         color: "pink-text-gradient",
       },
+      {
+        name: "CMS",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: mysatsang,
+    source_code_link: "https://play.google.com/store/apps/details?id=org.baps.mysatsang&hl=en_IE&pli=1",
   },
   {
-    name: "Job IT",
+    name: "CoronaViz",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Collaborated on a Web-based application that allows the user to view the multiple COVID-19 Data values on Geographical Interface.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "JSON",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "User Study",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: coronaViz,
+    source_code_link: "https://coronaviz.umiacs.io/",
   },
   {
-    name: "Trip Guide",
+    name: "ScrollyTelling",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that brings life to time-series data uploaded by the user to create an narrative interactive article.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "D3.js",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: scrollyTelling,
+    source_code_link: "https://github.com/sagars729/cmsc734-final-project",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
+
